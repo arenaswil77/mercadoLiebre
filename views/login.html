@@ -40,10 +40,19 @@
             </div>
         </header>
         <main class="login">
-            <form action="/" method="GET">
+            <form action="/" method="GET" class="form-login">
+                <div class="control-form">
+                    <h2>Ingresa tu cuenta</h2>
+                </div>
+                <div class="control-form"> 
                 <input type="text" name="user" placeholder="Nombre de usuario" required minlength="8">
+                </div>
+                <div class="control-form"> 
                 <input type="password" name="pass" placeholder="Elegí tu contraseña" required  minlength="6">
-                <input type="submit" value="Enviar">
+            </div>
+            <div class="control-form"> 
+                <input type="submit" value="Enviar" class="button-login">
+            </div>
             </form>
         </main>
         <footer>
